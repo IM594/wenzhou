@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.wenzhou.VActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="@string/wz1"/>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="380dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/wzmp3" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="-75dp"
+                android:layout_marginLeft="200dp">
+            <ImageView
+                android:id="@+id/play1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/bofang" />
+            <ImageView
+                android:id="@+id/stop1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/stop" />
+        </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="380dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ammp3" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-75dp"
+            android:layout_marginLeft="200dp">
+            <ImageView
+                android:id="@+id/play2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/bofang" />
+            <ImageView
+                android:id="@+id/stop2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/stop" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

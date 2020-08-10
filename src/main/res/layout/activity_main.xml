@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wenzhou.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    /*上下两个结构分别占比9:1 添加一个占位容器，一般是一个布局*/
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:id="@+id/fragment_top">
+    </FrameLayout>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fragment_bottom"
+        android:name="com.example.wenzhou.ButtomFragment" />
+    /* 内容为Fragment的完整类名 */
+</LinearLayout>

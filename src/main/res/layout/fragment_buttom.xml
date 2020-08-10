@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wenzhou.ButtomFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorTransparement"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/Fragment_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparement"
+            android:src="@drawable/main" />
+
+        <ImageButton
+            android:id="@+id/Fragment_b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparement"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/Fragment_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparement"
+            android:src="@drawable/eat" />
+
+        <ImageButton
+            android:id="@+id/Fragment_b4"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorTransparement"
+            android:src="@drawable/gy" />
+
+        <ImageButton
+            android:id="@+id/Fragment_b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparement"
+            android:src="@drawable/user" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简介"
+            android:textSize="15dp"
+            android:textColor="#009ACD"/>
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:text="游玩"
+            android:textSize="15dp"
+            android:textColor="#363636"/>
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:text="美食"
+            android:textSize="15dp"
+            android:textColor="#363636"/>
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:text="工艺"
+            android:textSize="15dp"
+            android:textColor="#363636"/>
+        <TextView
+            android:id="@+id/a5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:text="用户"
+            android:textSize="15dp"
+            android:textColor="#363636"/>
+
+    </LinearLayout>
+
+</FrameLayout>
